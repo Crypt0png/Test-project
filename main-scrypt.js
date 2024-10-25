@@ -11,6 +11,6 @@ hamster.addEventListener('click', () => {
     coins.innerText = currentCoin
     if(currentCoin == 10) {
         hamsterPoor.style.display = 'none'
-
+        hamsterRich.style.display = 'block'
     }
 })

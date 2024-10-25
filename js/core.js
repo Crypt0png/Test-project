@@ -33,7 +33,7 @@ if (answer >= 18, answer < 100, answer <! 18) {
     game.style.display = 'none';
     alert('Вы слишком малы для хамстер комбата.');
 } else if (answer >= 100, answer < 200) {
-    alert('Да вы стары для этой игры')
+    alert('Да вы старый')
 } else if (answer >= 200){
     alert('Да вы динозавр!')
 } else {

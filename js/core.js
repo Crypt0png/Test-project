@@ -1,5 +1,3 @@
-console.log('JS is linked and working');
-
 const hamster = document.getElementById('hamster');
 const money = document.getElementById('money');
 const game = document.getElementById('game');
@@ -8,7 +6,7 @@ const hamsterPoor = document.getElementById('poor-hamster'); // Эта и 2 ни
 const hamsterRich = document.getElementById('rich-hamster'); // Эта картинка богатого хомяка.
 const hamsterSport = document.getElementById('sport-hamster'); // Эта картинка хомяка в спортивках.
 
-let currentCoin = 0 // Переменная денег, улеличивается нажатием на картинку
+let currentCoin = 0 // Переменная содержащая текущее кол-во монет, улеличивается нажатием на картинку
 console.log('Variables set');
 const answer = +prompt('Сколько вам лет?', '');
 if (answer >= 18 && answer < 100) {

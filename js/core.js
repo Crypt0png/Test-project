@@ -18,7 +18,7 @@ if (answer >= 18 && answer < 100) {
         if (currentCoin < 10) {
             console.log(`${currentCoin} < 10 is true`);
             hamsterPoor.style.display = 'block';
-        } else if (currentCoin >=10, currentCoin < 20) {
+        } else if (currentCoin >=10 && currentCoin < 20) {
             console.log(`10 <= ${currentCoin} < 20 is true`);
             hamsterPoor.style.display = 'none';
             hamsterSport.style.display = 'block';

@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     flex-direction: column;
     width: 500px;
     height: 500px;
@@ -12,7 +13,6 @@
     font-size: 52px;
     font-weight: bold;
     color: gray;
-    font-family: 'Courier New', Courier, monospace;
 }
 img {
     width: 300px;
@@ -28,6 +28,15 @@ img {
 #sport-hamster {
     display: none;
 }
-p {
+body {
     font-family: 'Courier New', Courier, monospace;
+}
+#button {
+    align-items: center;
+    display: inline-block; /* Строчно-блочный элемент */
+    background: #000000; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 10px; /* Скругляем уголки */
 }

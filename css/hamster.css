@@ -31,3 +31,11 @@ img {
 p {
     font-family: 'Courier New', Courier, monospace;
 }
+#button {
+    display: inline-block; /* Строчно-блочный элемент */
+    background: #000000; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 10px; /* Скругляем уголки */
+}

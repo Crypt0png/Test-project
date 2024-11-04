@@ -1,3 +1,16 @@
 #main {
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.button {
+    display: inline-block; /* Строчно-блочный элемент */
+    background: #000000; /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 10px; /* Скругляем уголки */
+}
+#head1 {
+    border-radius: 5px;
+    background: #3b3737;
 }

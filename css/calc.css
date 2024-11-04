@@ -1,0 +1,31 @@
+body { 
+    font-family: 'Courier New', Courier, monospace; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    margin-top: 50px; 
+}
+.calculator { 
+    display: grid; 
+    grid-template-columns: repeat(4, 60px); 
+    gap: 10px;
+}
+.display { 
+    grid-column: span 4; 
+    height: 40px; 
+    font-size: 24px; 
+    text-align: right; 
+    padding-right: 10px; 
+}
+button { 
+    font-size: 20px; 
+    height: 40px;
+}
+#button {
+    display: inline-block; /* Строчно-блочный элемент */
+    background: #000000; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 10px; /* Скругляем уголки */
+}

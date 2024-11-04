@@ -1,0 +1,23 @@
+{
+  "name": "test",
+  "version": "0.0.1",
+  "description": "Test project for learning purposes",
+  "main": "core.js",
+  "scripts": {
+    "ham": "node ./js/core.js",
+    "cur-con": "node ./js/currency-converter.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Crypt0png/Test-project.git"
+  },
+  "author": "Max",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Crypt0png/Test-project/issues"
+  },
+  "homepage": "https://github.com/Crypt0png/Test-project#readme",
+  "dependencies": {
+    "currency-converter-lt": "^2.0.1"
+  }
+}

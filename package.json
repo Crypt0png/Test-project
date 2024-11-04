@@ -2,10 +2,8 @@
   "name": "test",
   "version": "0.0.1",
   "description": "Test project for learning purposes",
-  "main": "core.js",
+  "main": "",
   "scripts": {
-    "ham": "node ./js/core.js",
-    "cur-con": "node ./js/currency-converter.js"
   },
   "repository": {
     "type": "git",
